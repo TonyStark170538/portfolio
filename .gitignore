@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# next
+.next/
+
+# python
+venv/
+__pycache__/
+
+# env
+.env
+
+# logs
+*.log
+
+# build
+dist/
+build/
+
+# mac/windows
+.DS_Store
+Thumbs.db

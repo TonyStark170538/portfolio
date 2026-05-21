@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000'
+const API = 'https://portfolio-production-04e6.up.railway.app'
 // ─── Types ────────────────────────────────────────────────────────────────────
 type Asset = { name: string; value: number; ticker: string }
 type Tab = 'analyze' | 'scenario' | 'risk'

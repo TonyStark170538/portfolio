@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 
-const API = 'https://portfolio-production-04e6.up.railway.app'
+const API = 'https://portfolio-0x5r.onrender.com'
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 type Asset = { name: string; value: number; ticker: string }
